@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="agrifinace.css" />
+    <link rel="stylesheet" href="https://fontawesome.com" />
+    <title>AgriFinace</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav class="navbar">
+        <h3>Agri<span style="color:rgba(2, 90, 71, 0.692)">Finance</span></h3>
+        <ul class="nav-menu">
+          <li><a href="" style="color:rgb(31, 30, 30)">Home</a></li>
+          <li><a href="" style="color:rgb(31, 30, 30)">About</a></li>
+          <li><a href="" style="color:rgb(31, 30, 30)">Contact Us</a></li>
+          <!--<li><a href="" class="login">LOGIN</a></li>-->
+        </ul>
+      </nav>
+    </div>
+    <hr style="color: rgba(2, 90, 71, 0.692)">
+    <div class="content">
+      <div class="text-box">
+        <div class="text">
+          <h2>Best Loan offer for every farmer</h2>
+        <p style="margin-top: 10px; font-weight: 300; line-height: 1.7rem;">AgriFinace provides you with funds to scale your
+          agricultural businees, with payable interste rate</p>
+        <a href="plans" >
+          <p class="button">Check our plans</p>
+        </a>
+        </div>
+      </div> 
+      <div class="image">
+        <img src="./images/farmers 2 1.png" style="width: 100%;">
+      </div>
+    </div>
+
+    <p style="margin: 50px 200px 30px 200px; line-height: 2rem; 
+    letter-spacing: 3px; font-size: 18px;">We offer you the best to scale your <br>agricultural business</p>
+
+    <div class="plans">
+      <div class="plan">
+        <img src="./images/pics 1.png" class="img">
+        <div class="plan-info">
+          <p class="h">Mini Plan</p>
+          <p class="p">Payable in 1 - 2years</p> 
+          <p class="amount">NGN 1,000,000</p>
+          <p class='summary'>This plan gives you access to a maximuim of NGN 1,000,000. 
+            The interest rate is 10%. The repayment period is 1 - 2years. You will present the 
+            following documents:
+          Birth Certificate, National ID Card, Bank Details,  CAC certificate
+          </p>
+          <button class="btn" id="button1" onClick="calculateLoan(1000000, 0.5, 12)">Apply</button>
+        </div>
+      </div>
+
+      <div class="plan">
+        <img src="./images/pics 2.png" class="img">
+        <div class="plan-info">
+          <p class="h">Micro Plan</p>
+          <p class="p">Payable in 2 years</p> 
+          <p class="amount">NGN 2,000,000</p>
+          <p class='summary'>This plan gives you access to a maximuim of NGN 1,000,000. 
+            The interest rate is 10%. The repayment period is 2 - 3years. You will present the 
+            following documents:
+          Birth Certificate, National ID Card, Bank Details,  CAC certificate
+          </p>
+          <button class="btn" id="button2" onClick="calculateLoan(2000000, 0.10, 24)">Apply</button>
+        </div>
+      </div>
+      <!--<div class="plan">
+          <img src="./images/pics 3.png" class="img">
+          <div class="plan-info">
+              <p class="h">Micro Plan</p>
+              <p>This plan gives you access to a maximuim of NGN 1,000,000. 
+              The interest rate is 10%. The payment period is 2-4years.</p>
+              <a href="plan.html" >
+                  <p class="btn">Apply</p>
+                </a>
+          </div>
+
+      </div>
+
+      <div class="plan">
+          <img src="./images/pics 1.png" class="img">
+          <div class="plan-info">
+              <p class="h">Micro Plan</p>
+              <p>This plan gives you access to a maximuim of NGN 1,000,000. 
+              The interest rate is 10%. The payment period is 2-4years.</p>
+              <a href="plan.html" >
+                  <p class="btn">Apply</p>
+                </a>
+          </div>
+      </div>-->
+    </div>
+    <div id="form" class="formpage">
+      <h3 id="heading"></h3>
+      <p id="notice"></p>
+      <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="lname">Email:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="lname">Residential Address:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="lname">Phone number:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="lname">Phone number:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="lname">Phone number:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+        <div class="cancel">
+          x
+        </div>
+      </form>
+    </div>
+
+    <div id="successful">
+      <h3 id="greetings"></h3>
+      <p id="information"></p>
+    </div>
+
+    <script src="agrifinace.js"></script>
+
+  </body>
+</html>
