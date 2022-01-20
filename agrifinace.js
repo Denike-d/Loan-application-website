@@ -1,8 +1,24 @@
+var modal = document.getElementById("myModal");
+let close = document.getElementById("close");
+
 function calculateLoan(amount, rate, months){
-  let repaymentAmount = (amount*rate) + amount / months;
-  console.log(repaymentAmount)
-  //Perform a redirect to the form page using the repayment amount as a query parameter //
-  //On the plan page, retrieve the query parameter passed and display it using html  
+  /* Calulate Loan repayment*/ 
+  let payment =(amount*rate) + amount / months;
+  let repaymentAmount = Math.round(payment);
+  
+  /*Adding the repayment amount as a text using innerHTML*/
+  let notice = document.getElementById("notice");
+  let heading = document.getElementById("heading");
+
+  notice.innerHTML = "If you choose this plan, your monthly payback will be "
+  heading.innerHTML = "NGN " + repaymentAmount;
+
+  /*When the user clicks on the apply button, the for will be displayed as a modal */
+  modal.style.display = "block";
+ 
 }
 
-/*Open an */
+function closeModal(){
+  modal.style.display = "none"
+}
+
