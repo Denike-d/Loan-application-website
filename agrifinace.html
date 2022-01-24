@@ -73,24 +73,28 @@
     </div>
 
     <div id="myModal" class="modal">
-      <div class="formpage">
+      <div class="form-area">
         <span class="close" onClick="closeModal()">X</span>
-        <p id="notice"></p>
-        <h2 id="heading" style=""></h2>
-        <form id="form">
-          <label for="fname">First name</label><br>
-          <input type="text" id="fname" name="fname"><br><br>
-          <label for="lname">Last name</label><br>
-          <input type="text" id="lname" name="lname"><br><br>
-          <label for="lname">Email</label><br>
-          <input type="text" id="email" name="email"><br><br>
-          <label for="lname">Phone number</label><br>
-          <input type="text" id="phoneNumber" name="phoneNumber"><br><br>
-          <label for="lname">Farm Address</label><br>
-          <input type="text" id="address" name="address"><br><br>
-          <input type="submit" value="Submit" onclick="submitForm()">
-        </form>
+        <div class="formpage">
+          <p id="notice"></p>
+          <h2 id="heading"></h2>
+          <form id="form">
+            <p style="color:rgb(126, 123, 123); margin-bottom: 10px;">Fill the form below</p>
+            <label for="fname">First name</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="lname">Email</label><br>
+            <input type="text" id="email" name="email"><br><br>
+            <label for="lname">Phone number</label><br>
+            <input type="text" id="phoneNumber" name="phoneNumber"><br><br>
+            <label for="lname">Farm Address</label><br>
+            <input type="text" id="address" name="address"><br><br>
+            <input type="submit" value="Submit" onclick="submitForm()">
+          </form>
+        </div>
       </div>
+      
     </div>
 
     <div id="successful">

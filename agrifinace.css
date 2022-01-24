@@ -129,10 +129,16 @@ button{
 .formpage{
     display: inline-block; 
     justify-content: center;
-    margin: 70px 350px;
+    margin: 40px 50px;
     color: rgb(26, 26, 26);
     background-color: white;
     padding: 30px 60px;
+    box-shadow: 1px 1px 10px 0 rgba(194, 194, 194, 0.692);
+    border-radius: 10px;
+}
+.form-area{
+    margin: 50px 300px;
+    background-color: white;
 }
 
 form{
@@ -179,12 +185,13 @@ input[type = "submit"]{
   .close {
     color: white;
     float: right;
-    font-size: 15px;
     font-weight: bold;
-    font-size: 20px;
-    border-radius: 5px;
-    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 60%;
+    padding: 4px 10px;
     background-color: rgba(2, 90, 71, 0.692);
+    margin-top: 20px;
+    margin-right: 20px;
 }
   
   .close:hover,
@@ -230,7 +237,10 @@ input[type = "submit"]{
 
     }
     .formpage{
-        margin: 20px 130px;
+        margin: 20px 100px;
+    }
+    .form-area{
+        margin: 20px 100px;
     }
     #notice{
         font-size: 15px;
@@ -249,6 +259,12 @@ input[type = "submit"]{
     }
     .amount{
         font-size: 1.5rem;
+    }
+    .formpage{
+        margin: 20px 50px;
+    }
+    .form-area{
+        margin: 20px 50px;
     }
 }
 @media only screen and (max-width: 1440px){
