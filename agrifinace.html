@@ -52,7 +52,7 @@
             following documents:
           Birth Certificate, National ID Card, Bank Details,  CAC certificate
           </p>
-          <button class="btn" id="button1" onClick="calculateLoan(1000000, 0.50, 12)">Apply</button>
+          <button class="btn" onClick="calculateLoan(1000000, 0.50, 12)">Apply</button>
         </div>
       </div>
 
@@ -67,7 +67,7 @@
             following documents:
           Birth Certificate, National ID Card, Bank Details,  CAC certificate
           </p>
-          <button class="btn" id="button2" onClick="calculateLoan(2000000, 0.10, 24)">Apply</button>
+          <button class="btn" onClick="calculateLoan(2000000, 0.10, 24)">Apply</button>
         </div>
       </div>
     </div>
@@ -79,7 +79,7 @@
           <p id="notice"></p>
           <h2 id="heading"></h2>
           <form id="form">
-            <p style="color:rgb(126, 123, 123); margin-bottom: 10px;">Fill the form below</p>
+            <p style="color:rgb(163, 163, 163); margin-bottom: 15px;">Fill the form below</p>
             <label for="fname">First name</label><br>
             <input type="text" id="fname" name="fname"><br><br>
             <label for="lname">Last name</label><br>
@@ -90,11 +90,10 @@
             <input type="text" id="phoneNumber" name="phoneNumber"><br><br>
             <label for="lname">Farm Address</label><br>
             <input type="text" id="address" name="address"><br><br>
-            <input type="submit" value="Submit" onclick="submitForm()">
+            <button class=btn id="button" onClick="submitForm()">Submit</button>
           </form>
         </div>
       </div>
-      
     </div>
 
     <div id="successful">
