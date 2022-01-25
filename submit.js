@@ -1,5 +1,9 @@
 const dataParameter = new URLSearchParams(window.location.search);
-const data = dataParameter.get("data");
+const data = dataParameter.get("fname");
+
+
+let heading = document.getElementById("heading");
+heading.innerHTML = data + "Your application have been received";
 
 /*for (const data of dataParameter) {
     let firstName = data.fname

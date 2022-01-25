@@ -78,7 +78,7 @@
         <div class="formpage">
           <p id="notice"></p>
           <h2 id="heading"></h2>
-          <form id="form">
+          <form id="form" onsubmit="submitForm(e)">
             <p style="color:rgb(163, 163, 163); margin-bottom: 15px;">Fill the form below</p>
             <label for="fname">First name</label><br>
             <input type="text" id="fname" name="fname"><br><br>
@@ -90,8 +90,9 @@
             <input type="text" id="phoneNumber" name="phoneNumber"><br><br>
             <label for="lname">Farm Address</label><br>
             <input type="text" id="address" name="address"><br><br>
-            <button class=btn id="button" onClick="submitForm()">Submit</button>
+            <!--<input type="submit"  class="btn" id="submit">-->
           </form>
+          <button class="btn" onClick="submit()">Submit</button>
         </div>
       </div>
     </div>
