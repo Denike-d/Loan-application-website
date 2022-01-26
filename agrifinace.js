@@ -18,12 +18,6 @@ function calculateLoan(amount, rate, months){
 
 }
 
-function submit(){
- // e.preventDefault();
-  console.log("new window");
-  window.location.href = "/submit.html";
-}
-
 function closeModal(){
   modal.style.display = "none"
 }

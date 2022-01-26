@@ -14,12 +14,10 @@
     align-items: center;
     color: black;
     padding: 1rem 2rem;
-
 }
 nav ul{
     display: inline-block;
     list-style-type: none;
-    
 }
 nav ul li{
     padding: 10px;
@@ -27,7 +25,14 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color:black; 
+    color:rgb(65, 64, 64); 
+    font-weight: 600;
+}
+a:hover{
+   background-color: rgba(2, 90, 71, 0.692);
+   padding: 5px 10px;
+   border-radius: 5px;
+   color: white;
 }
 .nav-menu{
     font-size: 16px;
@@ -38,7 +43,6 @@ a{
     background-image: linear-gradient(to right, rgba(255, 253, 253, 0.993) 10%,rgba(0,0,0,0) 100%), url("./images/people.jpg");
     background-repeat: no-repeat;
 }
-
 .text-box{
     width: 50%;
 }
@@ -120,6 +124,7 @@ button{
     justify-content: center;
 }
 .summary{
+    font-size: 18px;
     display: flex;
     text-align: center;
     line-height: 28px;
@@ -133,7 +138,7 @@ button{
     color: rgb(26, 26, 26);
     background-color: white;
     padding: 30px 60px;
-    box-shadow: 1px 1px 10px 0 rgba(194, 194, 194, 0.692);
+    /*box-shadow: 1px 1px 10px 0 rgba(194, 194, 194, 0.692);*/
     border-radius: 10px;
 }
 .form-area{
