@@ -19,8 +19,7 @@
 }
 .body{
     text-align: left;
-    padding: 30px 20px;
-    font-weight: 600;
+    padding: 30px 200px;
     line-height: 2rem;
-    color:rgb(43, 43, 43)
+    color:rgb(43, 43, 43);
 }
