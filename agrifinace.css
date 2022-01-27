@@ -29,10 +29,9 @@ a{
     font-weight: 600;
 }
 a:hover{
-   background-color: rgba(2, 90, 71, 0.692);
-   padding: 5px 10px;
+   /*background-color: rgba(2, 90, 71, 0.692);*/
    border-radius: 5px;
-   color: white;
+   color: rgba(2, 90, 71, 0.692);
 }
 .nav-menu{
     font-size: 16px;
