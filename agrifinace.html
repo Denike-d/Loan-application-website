@@ -11,7 +11,7 @@
   <body>
     <div class="header">
       <nav class="navbar">
-        <h3>Agri<span style="color:rgba(2, 90, 71, 0.692)">Finance</span></h3>
+        <h3>Agri<span style="color: rgba(2, 90, 71, 0.692)">Finance</span></h3>
         <ul class="nav-menu">
           <li><a href="">Home</a></li>
           <li><a href="">About</a></li>
@@ -19,54 +19,71 @@
         </ul>
       </nav>
     </div>
-    <hr style="color: rgba(2, 90, 71, 0.692)">
+    <hr style="color: rgba(2, 90, 71, 0.692)" />
     <div class="content">
       <div class="text-box">
         <div class="text">
           <h2>Best Loan offer for every farmer</h2>
-          <p style="margin-top: 10px; font-weight: 300; line-height: 1.7rem; font-size: 18px;">AgriFinace provides you with funds to scale your
-          agricultural businees, with payable interste rate</p>
-          <a href="#checkPlan" >
-          <p class="button">Check our plans</p>
-        </a>
+          <p
+            style="
+              margin-top: 10px;
+              font-weight: 300;
+              line-height: 1.7rem;
+              font-size: 18px;
+            "
+          >
+            AgriFinace provides you with funds to scale your agricultural
+            businees, with payable interste rate
+          </p>
+          <a href="#checkPlan">
+            <p class="button">Check our plans</p>
+          </a>
         </div>
-      </div> 
+      </div>
       <!--<div class="image">
         <img src="./images/cropped-woman-05-1.jpg" style="width: 100%;">
 
       </div>-->
     </div>
 
-    <p class="plan-heading">We offer you the best to scale your <br>agricultural business</p>
+    <p class="plan-heading">
+      We offer you the best to scale your <br />agricultural business
+    </p>
 
     <div class="plans" id="checkPlan">
       <div class="plan">
-        <img src="./images/pics 1.png" class="img">
+        <img src="./images/pics 1.png" class="img" />
         <div class="plan-info">
           <p class="h">Mini Plan</p>
-          <p class="p">Payable in 1 year</p> 
+          <p class="p">Payable in 1 year</p>
           <p class="amount">NGN 1,000,000</p>
-          <p class='summary'>This plan gives you access to a maximuim of NGN 1,000,000. 
-            The interest rate is 10%. The repayment period is 1 year. You will present the 
-            following documents:
-          Birth Certificate, National ID Card, Bank Details,  CAC certificate
+          <p class="summary">
+            This plan gives you access to a maximuim of NGN 1,000,000. The
+            interest rate is 10%. The repayment period is 1 year. You will
+            present the following documents: Birth Certificate, National ID
+            Card, Bank Details, CAC certificate
           </p>
-          <button class="btn" onClick="calculateLoan(1000000, 0.50, 12)">Apply</button>
+          <button class="btn" onClick="calculateLoan(1000000, 0.50, 12)">
+            Apply
+          </button>
         </div>
       </div>
 
       <div class="plan">
-        <img src="./images/pics 2.png" class="img">
+        <img src="./images/pics 2.png" class="img" />
         <div class="plan-info">
           <p class="h">Micro Plan</p>
-          <p class="p">Payable in 2 years</p> 
+          <p class="p">Payable in 2 years</p>
           <p class="amount">NGN 2,000,000</p>
-          <p class='summary'>This plan gives you access to a maximuim of NGN 2,000,000. 
-            The interest rate is 10%. The repayment period is 2 years. You will present the 
-            following documents:
-          Birth Certificate, National ID Card, Bank Details,  CAC certificate
+          <p class="summary">
+            This plan gives you access to a maximuim of NGN 2,000,000. The
+            interest rate is 10%. The repayment period is 2 years. You will
+            present the following documents: Birth Certificate, National ID
+            Card, Bank Details, CAC certificate
           </p>
-          <button class="btn" onClick="calculateLoan(2000000, 0.10, 24)">Apply</button>
+          <button class="btn" onClick="calculateLoan(2000000, 0.10, 24)">
+            Apply
+          </button>
         </div>
       </div>
     </div>
@@ -78,18 +95,48 @@
           <p id="notice"></p>
           <h2 id="heading"></h2>
           <form id="form" method="GET" action="submit.html">
-            <p style="color:rgb(163, 163, 163); margin-bottom: 15px;">Fill the form below</p>
-            <label for="fname">First name</label><br>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="lname">Last name</label><br>
-            <input type="text" id="lname" name="lname"><br><br>
-            <label for="lname">Email</label><br>
-            <input type="text" id="email" name="email"><br><br>
-            <label for="lname">Phone number</label><br>
-            <input type="text" id="phoneNumber" name="phoneNumber"><br><br>
-            <label for="lname">Farm Address</label><br>
-            <input type="text" id="address" name="address"><br><br>
-            <input type="submit"  class="btn" id="submit">
+            <p style="color: rgb(163, 163, 163); margin-bottom: 15px">
+              Fill the form below
+            </p>
+            <label for="fname">First name</label><br />
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Usman"
+              required
+            /><br /><br />
+            <label for="lname">Last name</label><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Tayo"
+              required
+            /><br /><br />
+            <label for="lname">Email</label><br />
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="abc@gmail.com"
+            /><br /><br />
+            <label for="lname">Phone number</label><br />
+            <input
+              type="text"
+              id="phoneNumber"
+              name="phoneNumber"
+              placeholder="+23499995"
+              required
+            /><br /><br />
+            <label for="lname">Farm Address</label><br />
+            <input
+              type="text"
+              id="address"
+              name="address"
+              required
+            /><br /><br />
+            <input type="submit" class="btn" id="submit" />
           </form>
         </div>
       </div>
@@ -101,7 +148,5 @@
     </div>
 
     <script src="agrifinace.js"></script>
-    
-
   </body>
 </html>
