@@ -14,4 +14,4 @@ This project is loan appplication website. When a user clicks on any of the appl
 
 ### Demo
 
-![](agrfinance.gif)
+![](agrifinance.gif)
